@@ -1,6 +1,7 @@
 FROM debian:jessie-20171210 as build
 
-LABEL maintainer="Edgar Aroutiounian <edgar.factorial@gmail.com>"
+LABEL maintainer="Edgar Aroutiounian <edgar.factorial@gmail.com>" \
+			session="Summer:2018"
 
 ARG DEBIAN_FRONTEND=noninteractive
 
