@@ -1,0 +1,10 @@
+version: '3.6'
+
+services:
+  frontend:
+    build: .
+    volumes:
+      - ./src:/home/iterate/application/src
+      - ./public:/home/iterate/application/public
+    ports:
+      - "3000:3000"
